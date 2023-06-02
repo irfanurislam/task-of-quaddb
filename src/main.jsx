@@ -24,9 +24,9 @@ const router = createBrowserRouter([
           
         },
       {
-        path:'secondpage',
+        path:'/secondpage',
         element:<SecondPage></SecondPage>
-      }
+       },
     ]
   },
   

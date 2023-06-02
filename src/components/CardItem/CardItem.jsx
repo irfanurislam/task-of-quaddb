@@ -17,7 +17,7 @@ const CardItem = ({ movie ,handleDetails}) => {
             <p>Type:  {type}</p>
           </div>
         
-          <Link to={`/singlemovie/${id}`} className="btn btn-primary">Movie Summary</Link>
+          <Link to="secondpage" className="btn btn-primary">Movie Summary</Link>
         </div>
       </div>
       
